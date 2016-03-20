@@ -1,0 +1,68 @@
+     /* LE CSS DU SITE DE PAPE BADIANE */
+
+                              /* les zones de  pages*/
+
+#photo{
+position:absolute;
+top:100px;
+left:100px;
+width:250px;
+height:200px;
+background-color:rgb(0,204,204);
+}
+#titre_page{
+position:absolute;
+top:100px;
+left:350px;
+right:0px;
+width:916px;
+height:200px;
+font:bold 36pt "times new roman",arial;
+color:rgb(192,192,192);
+
+border:solid rgb(255,255,255) 5px;
+}
+#plan_site{position:absolute;
+top:300px;
+left:100px;
+height:1016px;
+width:250px;
+background:rgb(30,144,255);
+border:solid rgb(255,255,255) 5px;}
+#contenu{position:absolute;
+top:300px;
+left:350px;
+height:1016px;
+width:916px;
+overflow:auto;
+border:solid rgb(255,255,255) 5px;}
+#copyright{position:absolute;
+top:1316px;
+left:100px;
+height:100px;
+width:1166px;
+background:rgb(30,144,255);
+border:solid rgb(255,255,255) 5px;}
+                                /*body*/
+
+#texte_page{margin:75px 0px 0px 0px;
+text-align:center;} 
+a:hover {font:bold;color:rgb(128,128,128);}
+a:link{font:bold;color:rgb(51,204,204);}                                
+/*les listes*/
+                            
+ ul>li{list-style-type:none;font:20pt algerian,arial;margin:30px 5px 80px 0px;}
+ ol li{font: 16pt;text-decoration:underline;
+ color:rgb(255,20,147);}                            
+.texte_copyright{font:14pt "times new roman",arial;
+text-align:center;}
+                       /*les details*/
+#texte_contenu{padding:30px;
+line-height:30px;
+font:16pt "times new roman",arial;}
+
+h1,h2,h3,h4{text-decoration:underline;
+font-family:algerian,sherif;
+color:rgb(135,206,250);}
+
+hr{color:rgb(102,153,255); border:groove;}
